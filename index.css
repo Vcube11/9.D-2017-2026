@@ -37,9 +37,23 @@ nav ul {
   	display: flex;
   	flex-direction:column;
   	align-items: left;
+  	background-color: hsl(60, 100%, 80%);
 }
+
+.imagediv2 {
+	border-radius: 10px;
+	border: 2px solid gray;
+  	padding: 1px;
+  	display: flex;
+  	flex-direction:column;
+  	align-items: left;
+  	background-color: rgb(255, 255, 204);
+}
+
+
+
 img {
-	border border-radius: 8px;
+	border-radius: 8px;
   	display: flex;
 
 }
@@ -55,6 +69,9 @@ a {
 
 body {background-color: ;}
 
-h3 {
-	font-weight: ;
+.date {
+	opacity:1;
+	color:dimgray;
 }
+
+
